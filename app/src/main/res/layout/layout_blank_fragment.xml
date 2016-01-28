@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/blankImagen"
+        android:background="@drawable/math"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/informacion"
+        android:text="Iván García Fernández 2ºDAM"
+        android:enabled="false"
+        android:layout_gravity="right|bottom"
+        style="@style/Theme.AppCompat.Light.Dialog"
+        android:textColor="#140d0d" />
+</FrameLayout>
